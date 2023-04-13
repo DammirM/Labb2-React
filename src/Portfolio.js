@@ -22,10 +22,10 @@ function Portfolio() {
   return (
     <>
       {isLoading ? (
-        <div>Loading ...</div>
+        <div className="load">Loading ...</div>
       ) : (
         <section className="sect">
-          <h1>My Portflio</h1>
+          <h1>My Portfolio</h1>
           {data.map((item) => (
             <li key={item.id}>
               <h2>
